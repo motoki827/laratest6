@@ -11,9 +11,10 @@ class CreateController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function conform()
     {
         //
+        return view('conform');
     }
 
     /**
@@ -36,6 +37,15 @@ class CreateController extends Controller
     public function store(Request $request)
     {
         //
+        DB::table('questions')->insert([
+            'questioner_id' => (''),
+            'school' =>(''), 
+            'subject' =>(''),
+            'title' =>(''),
+            'content' =>(''),
+            'image_name' =>(''),
+  
+        ]);
     }
 
     /**

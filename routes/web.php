@@ -18,6 +18,7 @@ Route::get('/dashboard', function () {return view('dashboard');})->middleware(['
 
 Route::get('/myPage', [App\Http\Controllers\MyPageController::class, 'myPage'])->name('myPage');;
 Route::get('/create', [App\Http\Controllers\CreateController::class, 'create'])->name('create');;
-Route::get('/myPage', [App\Http\Controllers\myPageController::class, 'myPage'])->name('myPage');;
+Route::post('/store', [App\Http\Controllers\CreateController::class, 'store'])->name('store');;
+Route::get('/conform', [App\Http\Controllers\CreateController::class, 'conform'])->name('conform');;
 
 require __DIR__.'/auth.php';
