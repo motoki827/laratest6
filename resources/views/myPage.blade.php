@@ -4,9 +4,9 @@
 
         </h2>
     </x-slot>
-    <div class="h-full m-8">
+    <div class="max-w-5xl bg-blue-300 h-full m-8 p-5 flex justify-center ">
 
-        <div class="border-b-2 block md:flex">
+        <div class=" border-b-2 block md:flex">
 
             <div class="w-full md:w-2/5 p-4 sm:p-6 lg:p-8 bg-white mr-4 shadow-md">
                 <div class="flex justify-end">
