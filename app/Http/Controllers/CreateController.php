@@ -44,8 +44,12 @@ class CreateController extends Controller
             'title' =>(''),
             'content' =>(''),
             'image_name' =>(''),
-  
         ]);
+    }
+
+    public function comform()
+    {
+        return view('comform');
     }
 
     /**
