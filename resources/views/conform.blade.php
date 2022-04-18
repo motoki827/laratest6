@@ -15,13 +15,7 @@
                         <div class="w-full md:w-1/2 flex flex-col">
                             <label class="font-semibold leading-none">学校種</label>
                             <select name="school" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200">
-                                <option value="小学校">小学校</option>
-                                <option value="中学校">中学校</option>
-                                <option value="高校">高校</option>
-                                <option value="専門学校">専門学校</option>
-                                <option value="大学校">大学校</option>
-                                <option value="短大">短大</option>
-                                <option value="大学">大学</option>
+                         
                             </select>
                         </div>
                         <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
